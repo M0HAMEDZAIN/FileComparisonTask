@@ -10,7 +10,7 @@ import com.evision.task.model.ScoreReport;
 import com.evision.task.service.FileComparisonService;
 
 @RestController
-@RequestMapping("/api/similarity")
+@RequestMapping("/api/compare")
 public class FileComparisonController {
 	private final FileComparisonService service;
 
